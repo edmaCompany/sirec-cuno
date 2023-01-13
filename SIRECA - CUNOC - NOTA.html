@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://sireca.cunoc.edu.gt/index.php?&cmp=comconsultanotas -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<title>SIRECA - CUNOC</title>
+   <script type="text/javascript">
+     	function mostrarbloque(control,activar,desactivar) {
+        	if (control==1) {
+           	document.getElementById(activar).style.display='block';
+            document.getElementById(desactivar).style.display='none';
+         }else {
+            document.getElementById(activar).style.display='none';
+            document.getElementById(desactivar).style.display='block';      
+         }
+         document.getElementById("resto").style.display='block';
+      }
+	</script>
+   
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="./SIRECA - CUNOC - NOTA_files/bootstrap.min.css">
+   <link rel="stylesheet" href="./SIRECA - CUNOC - NOTA_files/estilo.css">
+   <link href="./SIRECA - CUNOC - NOTA_files/css" rel="stylesheet">
+   <script src="./SIRECA - CUNOC - NOTA_files/popper.min.js.download"></script>
+   <script src="./SIRECA - CUNOC - NOTA_files/jquery-3.3.1.min.js.download"></script>
+   <script src="./SIRECA - CUNOC - NOTA_files/bootstrap.min.js.download"></script>
+   <style type="text/css">
+	#encabezado{
+		background: url(../imagenes/fondo1.png);
+		border-radius: 15px;
+		box-shadow: 0 8px 8px #888;
+	}
+
+	#logo_menu{
+		background:  url(../imagenes/header.png) no-repeat;
+		background-position: 25px 5px;
+		height: 162px;
+	}
+
+	#headertext{
+		width: 100%;
+		font-family:sans-serif;
+		float: left;
+		margin-top: 10px;
+		/*padding-left: 25px;*/
+		color: blue;	
+	}
+
+	#t1 {
+		font-family: trojan;
+		/*float: left;*/
+		padding-top: 35px;
+		font-size: 20px;
+		color: #8b0515;
+		padding-left: 152px;
+		text-shadow: grey 0.1em 0.1em 0.2em;
+	
+	}
+
+	#t2  {
+		/*float: left;*/
+		font-family: trojan;
+		font-size: 14px;
+		color: #8b0515;
+		padding-left: 152px;
+		text-shadow: grey 0.1em 0.1em 0.2em;
+	}
+
+	#t3 {
+		text-align: right;
+		color: blue;
+		padding-top: 2px;
+		padding-left: 152px;
+		padding-right: 150px;
+
+	}
+	#parrafo 
+	{	
+		font-family: arial;
+		font-size: 18px;
+		color: #08088A;
+	}	
+
+	#centrarcontenido
+	{
+		text-align: center;
+	}
+
+	#micontenido-titulo
+	{	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 14px;
+		margin:auto;
+		text-align: center;
+		background: #b9c9fe;
+	}
+	#mititulo2
+	{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 14px;
+		margin:auto;
+		text-align: center;
+		color: red;
+	}
+
+	#box-table-a
+	{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 11px;
+		margin:auto;
+		width: 98%;
+		text-align: left;
+		border-collapse: collapse;
+	}
+	#box-table-a th
+	{
+		font-size: 13px;
+		font-weight: normal;
+		padding: 8px;
+		background: #b9c9fe;
+		border-top: 4px solid #aabcfe;
+		border-bottom: 1px solid #fff;
+		color: #039;
+	}
+	#box-table-a td
+	{
+		padding: 8px;
+		background: #e8edff; 
+		border-bottom: 1px solid #fff;
+		color: #210B61;
+		border-top: 1px solid transparent;
+	}
+	#box-table-a tr:hover td
+	{
+		background: #d0dafd;
+		color: #339;
+	}
+
+	#newspaper-b
+	{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 10px;
+		width: 95%;
+		text-align: left;
+		border-collapse: collapse;
+		border: 1px solid #69c;
+	}
+	#newspaper-b th
+	{
+		padding: 10px 10px 10px 10px;
+		font-weight: normal;
+		font-size: 14px;
+		color: #039;
+	}
+	#newspaper-b tbody
+	{
+		background: #e8edff;
+	}
+	#newspaper-b td
+	{
+		padding: 10px;
+		color: #3B0B0B;
+		border-top: 1px dashed #fff;
+	}
+	#newspaper-b tbody tr:hover td
+	{
+		color: #339;
+		background: #d0dafd;	
+	}
+</style>   
+</head>
+<body cz-shortcut-listen="true">
+<header>
+	<hgroup class="row">		
+		<figure class="col-sm-3">
+			<img class="img-fluid " src="./SIRECA - CUNOC - NOTA_files/logoazul.png" alt="Usac" width="320"> 
+		</figure>
+		<div class="col-sm-9 border-left">
+			<h1 class="letra-titulo font-weight-bold">Centro Universitario de Occidente</h1>
+			<h3 class="letra-titulo">Sistema de Control Académico</h3>
+			<h6 class="border-top"> 
+				<small>Estudiante: Sánchez Aguilar Randy Nelson Antonio - 202031438<br>
+						 Carrera:120033 - Ingeniería Civil											</small></h6>
+		</div>
+	</hgroup>
+	<nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+		<a onclick="go_to_home()" class="navbar-brand border-right">Sireca&nbsp;</a>
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+			
+			<span class="navbar-toggler-icon"></span>
+		</button>
+    	
+    	<div class="navbar-collapse collapse" id="navbarCustom">
+      	<ul class="navbar-nav">
+				<li class="nav-item">
+            	<a class="nav-link rounded" onclick="go_to_home()" >Inicio</a>
+        		</li>
+        		<li class="nav-item dropdown">    
+					<a class="nav-link dropdown-toggle rounded" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Control Academico </a>
+					<div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">		
+						<a class="dropdown-item rounded" >Asignar Examen Privado</a>
+						<a class="dropdown-item rounded" >Asignar Cursos</a>
+						<a class="dropdown-item rounded" >Consultar Asignaciones</a>
+						<a class="dropdown-item rounded" onclick="go_to_next()">Consultar Notas</a>
+						<a class="dropdown-item rounded" >Consultar Seccion</a>
+						<a class="dropdown-item rounded" >Consultar Calendario</a>
+						<a class="dropdown-item rounded" >Consultar Solicitudes Certificaciones</a>
+						<a class="dropdown-item rounded" >Seleccionar Otra Carrera</a>
+					</div>
+            </li>
+				<li class="nav-item dropdown">    
+					<a class="nav-link dropdown-toggle rounded"  id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Ordenes de Pago </a>
+					<div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">		
+												<a class="dropdown-item rounded" >Recuperaciones de Cursos</a>
+						<a class="dropdown-item rounded" >Escuela de Vacaciones</a>
+						<a class="dropdown-item rounded" >Certificaciones de Cursos</a>
+						<a class="dropdown-item rounded" >Examenes Generales (Privados y Publicos)</a>
+						<a class="dropdown-item rounded" >Titulos (Registro e Impresion)</a>
+						<a class="dropdown-item rounded" >Togas (Estudiantes y profesionales)</a>
+						<a class="dropdown-item rounded" >Equivalencias de Cursos</a>
+						<a class="dropdown-item rounded" >Sellos Para Titulos</a>
+						<a class="dropdown-item rounded" >Examen Extraordinario</a>
+						<a class="dropdown-item rounded" >Solvencia de Biblioteca</a>
+						<a class="dropdown-item rounded" >Multas de Biblioteca</a>
+						<a class="dropdown-item rounded" >Cambio de Carrera</a>
+						<a class="dropdown-item rounded" >Curso Preparacion EPS</a>
+					</div>
+            </li>
+   			<li class="nav-item dropdown">    
+					<a class="nav-link dropdown-toggle rounded"  id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Formularios </a>
+					<div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">		
+		<a class="dropdown-item rounded" >Constancia de Cierre de Pensum</a>
+		<a class="dropdown-item rounded" >Constancia de Inscripcion</a>
+		<a class="dropdown-item rounded" >Solvencia Matricula Estudiantil</a>
+		<a class="dropdown-item rounded" >Constancia de Archivo</a>
+				<a class="dropdown-item rounded" onclick="sireca_pdf()" target="_blank">Revisión Asignación Automatica  de Cursos</a> 
+		<a class="dropdown-item rounded" >Examen Extraordinario</a>
+		<a class="dropdown-item rounded" >Tarjeta Examen de Salud</a>
+		<a class="dropdown-item rounded" >Carga de Nota RYCA-CARGANOTA2021</a>							
+		<a class="dropdown-item rounded" >Corrección de Nota RYCA-01</a>
+		<a class="dropdown-item rounded" >Descarga de Cursos de Certificacion RYCA-02</a>
+		<a class="dropdown-item rounded" >Asignacion Extemporanea de Cursos RYCA-05</a>
+		<a class="dropdown-item rounded" >Revision Articulo 24 RYCA-06</a>
+		<a class="dropdown-item rounded" >Verificación Nota Local/Web RYCA-07</a>
+		<a class="dropdown-item rounded" >Retiro de Asignación de Cursos RYCA-08</a>
+					</div>
+            </li>
+            <li class="nav-item dropdown">    
+					<a class="nav-link dropdown-toggle rounded"  id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Opciones </a>
+					<div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">		
+						<a class="dropdown-item rounded" >Registrame Aula Virtual CUNOC</a>
+						<a class="dropdown-item rounded" >Datos de Correo Electronico</a>
+					</div>
+            </li>
+				<li class="nav-item">
+            	<a class="nav-link rounded" href="index.html"><span class="glyphicon glyphicon-log-out"> </span>Cerrar Sesion</a>
+        		</li>
+        	</ul>
+   	</div>
+	</nav>
+</header>
+
+<div class="container-fluid">
+				<font size="3" color="#666666">ACLARACION:<br></font> 
+				<font size="1" color="#666666"><lu><li>Si tienes asignado un curso y en este reporte no aparece tu nota, favor verificar con el catedratico del curso.</li></lu></font>
+				<li><font size="1" color="#666666">Este reporte no constituye una Certificacion de Cursos y se genera unicamente para consulta.</font>
+					<div id="micontenido-titulo">CARRERA SELECCIONADA : 120033 Ingeniería Civil</div><div id="micontenido-titulo">CONSULTA DE NOTAS</div>
+					<table id="box-table-a"><tbody><tr><th>CODIGO</th><th>CURSO</th><th>SECCION</th><th>ZONA</th><th>FINAL</th><th>NOTA</th><th>PERFIL</th><th>FECHA</th></tr>
+						
+						
+						
+					    <tr><td>1206-2667</td><td>TECNICAS DE INVESTIGACION Y ESTUDIO</td><td>A</td><td>52</td><td>10</td><td>62</td><td>APROBADO</td><td>2020-11-04</td></tr>
+
+						<tr><td>1206-29</td><td>MATEMATICA 2</td><td>C</td><td>40</td><td>25</td><td>65</td><td>APROBADO</td><td>2020-11-20</td></tr>
+						
+						<tr><td>1206-101</td><td>SOCIAL HUMANISTICA 2</td><td>C</td><td>57</td><td>5</td><td>62</td><td>APROBADO</td><td>2020-11-04</td></tr>
+
+						<tr><td>1206-121</td><td>TECNICA COMPLEMENTARIA 2</td><td>C</td><td>34</td><td>27</td><td>61</td><td>APROBADO</td><td>2020-11-19</td></tr>
+
+						<tr><td>1206-216</td><td>QUIMICA 1</td><td>F</td><td>42</td><td>27</td><td>69</td><td>APROBADO</td><td>2020-05-25</td></tr>
+
+						<tr><td>1206-169</td><td>MATEMATICA BASICA 1</td><td>F</td><td>45</td><td>18</td><td>63</td><td>APROBADO</td><td>2020-05-20</td></tr>
+
+						<tr><td>1206-2666</td><td>ORIENTACION Y LIDERAZGO</td><td>F</td><td>45</td><td>17</td><td>62</td><td>APROBADO</td><td>2020-05-14</td></tr>
+
+						<tr><td>1206-179</td><td>DEPORTES 1</td><td>F</td><td>65</td><td>30</td><td>95</td><td>APROBADO</td><td>2020-05-11</td></tr>
+
+						<tr><td>1206-119</td><td>TECNICA COMPLEMENTARIA 1</td><td>F</td><td>41</td><td>21</td><td>62</td><td>APROBADO</td><td>2020-05-16</td></tr>
+					
+						<tr><td>1206-290</td><td>MATEMATICA INTERMEDIA 1</td><td>B</td><td>49</td><td>22</td><td>71</td><td>APROBADO</td><td>2022-05-13</td></tr>
+
+						<tr><td>1206-94</td><td>ECOLOGIA</td><td>A</td><td>48</td><td>26</td><td>74</td><td>APROBADO</td><td>2022-05-09</td></tr>
+
+						<tr><td>1206-930</td><td>GEOLOGIA</td><td>A</td><td>53</td><td>25</td><td>78</td><td>APROBADO</td><td>2022-11-20</td></tr>
+
+						<tr><td>1206-678</td><td>CIENCIAS DE LOS MATERIALES</td><td>B</td><td>45</td><td>22</td><td>67</td><td>APROBADO</td><td>2022-11-19</td></tr>
+
+						<tr><td>1206-291</td><td>MATEMATICA INTERMEDIA 2</td><td>B</td><td>41</td><td>26</td><td>67</td><td>APROBADO</td><td>2022-11-19</td></tr>
+
+						<tr><td>1206-2585</td><td>PRACTICA INTERMEDIA</td><td>A</td><td>55</td><td>30</td><td>85</td><td>APROBADO</td><td>2022-11-24</td></tr>
+
+						<tr><td>1206-926</td><td>GEOLOGIA 2</td><td>B</td><td>48</td><td>22</td><td>70</td><td>APROBADO</td><td>2022-11-21</td></tr>
+
+					
+					</table><br><table id="newspaper-b"> 
+<thead><tr>
+<th>DESCRIPCION</th> 
+<th>CALCULO</th> 
+<th>REGISTROS</th> 
+</tr> 
+</thead><tbody><tr>
+<td>Promedio General Todas Las Notas:</td> 
+<td>69.56</td> 
+<td>Total de Registros : 16</td> 
+</tr> 
+<tr>
+<td>Promedio General Notas Aprobadas:</td> 
+<td>69.56</td> 
+<td>Total de Registros Aprobados : 16</td> 
+</tr> 
+</tbody></table> 
+<br></li></div>
+
+<footer class="text-center border-top">
+	<h5 class="letra-pie">Todos los derechos reservados 2021</h5>
+	<h5 class="letra-pie">Oficina de Administracion de Computo y Telecomunicaciones</h5>
+</footer>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>

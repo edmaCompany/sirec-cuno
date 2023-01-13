@@ -1,0 +1,185 @@
+.navbar-custom 
+{
+   /* background-color: #00274e;*/
+    background-color: #0a327a;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font-family: 'Montserrat';
+    /*font-weight: bold;*/
+}
+
+/* Especificaciones para encabezado*/
+.letra-titulo 
+{
+	font-family: 'Montserrat';
+	color: #0a327a;
+	/*color: #00274e;*/ 
+	text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+
+.letra-pie
+{
+	font-family: 'Montserrat';
+	/*color: #00274e;*/ 
+	color: #0a327a;
+	
+}
+/* Color de text de los menus principales y del brand */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text 
+{
+    color: #ffffff;
+}
+
+
+
+/* Color de link del menu */
+
+.navbar-custom .navbar-nav .nav-link 
+{
+    color: #ffffff;
+}
+
+
+
+/* Color del fondo y del link cuando esta activo o el mouse pasa por el*/
+
+.navbar-custom .nav-item.active .nav-link,
+
+.navbar-custom .nav-item:hover .nav-link 
+{
+    /*color: #00274e;*/
+    color: #0a327a;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #999;
+    
+}
+
+
+
+/* Color del menu desplegable */
+
+.navbar-custom .dropdown-menu 
+{
+    background-color: #ffffff;
+}
+
+/* Color del item del submenu*/
+.navbar-custom .dropdown-item 
+{
+    /*color: #00274e;*/
+    color: #0a327a;
+}
+
+
+/* color de fondo y texto del submenu cuando paso el mouse o esta seleccionado*/
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus 
+{
+    color: #ffffff;
+  /*  background-color: #00274e;*/
+    background-color: #0a327a;
+    box-shadow: 2px 2px 5px #999;
+}
+
+/* Aqui inicio el cambio del tamaño de los titulos para ajustarlos a una pantalla pequeña*/
+html,
+body {
+  font-size: 14px !important;
+}
+
+h1 {
+  font-size: 1.602em;
+}
+
+h2 {
+  font-size: 1.424em;
+}
+
+h3 {
+  font-size: 1.266em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5 {
+  font-size: 0.889em;
+}
+
+h6 {
+  font-size: 0.79em;
+}
+
+.display-1 {
+  font-size: 3.906em;
+}
+
+.display-2 {
+  font-size: 3.125em;
+}
+
+.display-3 {
+  font-size: 2.5em;
+}
+
+.display-4 {
+  font-size: 2em;
+}
+
+
+/* Aqui reajusto el tamaño para tablets y pantallas hasta 14 pulgadas*/
+@media (min-width: 48em) {
+  h1 {
+    font-size: 2.441em;
+  }
+
+  h2 {
+    font-size: 1.953em;
+  }
+
+  h3 {
+    font-size: 1.563em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  .display-1 {
+    font-size: 6em;
+  }
+
+  .display-2 {
+    font-size: 5.5em;
+  }
+
+  .display-3 {
+    font-size: 4.5em;
+  }
+
+  .display-4 {
+    font-size: 3.5em;
+  }
+}
+
+/* Aqui reajusto el tamaño para computadoras y pantallas grandes*/
+@media (min-width: 62em) {
+  html,
+  body {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 75em) {
+  html,
+  body {
+    font-size: 18px !important;
+  }
+}
+
+
+
+
